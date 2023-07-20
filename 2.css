@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+#active {
+    color:red;
+}
+.saw {
+    color:grey;
+}
+h1 {
+    font-size: 55px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+}
+ol {
+    border-right:1px solid #6b7af7; 
+    width:110px;
+    margin:0px;
+    padding:20px;
+}
+body{
+    margin:0;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}

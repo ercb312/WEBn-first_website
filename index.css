@@ -1,0 +1,26 @@
+/*우선순위: tag<class<id 선택자, 다 똑같으면 마지막에 나오는 선택자*/
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 55px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+
+    border:10px solid rgb(225, 221, 7);
+    font-size:60px;
+    @media(min-width:800px)  {}
+}
+ol {
+    border-right:1px solid #6b7af7; 
+    width:130px;
+    margin:0px;
+    padding:20px;
+    font-size:20px;
+    @media(min-width:800px)  {}
+}
+body{
+    margin:0;
+}
